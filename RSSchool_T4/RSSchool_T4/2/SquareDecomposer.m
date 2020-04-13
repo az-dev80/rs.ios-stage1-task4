@@ -2,7 +2,13 @@
 
 @implementation SquareDecomposer
 - (NSArray <NSNumber*>*)decomposeNumber:(NSNumber*)number {
-    // good luck
-    return @[@0];
+    if (number.integerValue <0) {
+        return nil;
+    }
+    else  return nil;
+        
+        
+     //   return @[@0];
+   
 }
 @end
